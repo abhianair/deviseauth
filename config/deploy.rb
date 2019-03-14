@@ -1,5 +1,5 @@
 # Change these
-server '128.199.237.27', port: 21, roles: [:web, :app, :db], primary: true
+server '128.199.237.27', port: , roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'abhianair@bitbucket.org/abhianair/deviseauth.git'
 set :application,     'deviseauth'
