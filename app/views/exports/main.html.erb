@@ -1,0 +1,6 @@
+<h1>Exports#main</h1>
+
+<%= form_for :export, :url => { :method => :get, :action => :export } do |form|  %>
+	<%= form.number_field :number %>
+	<%= form.submit %>
+<% end %>
