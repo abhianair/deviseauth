@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: deviseauth_production
-  username: deviseauth
-  password: <%= ENV['DEVISEAUTH_DATABASE_PASSWORD'] %>
+  username: rails
+  password: a76ad9978528e6324c349e6d5574edea
