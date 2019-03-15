@@ -1,5 +1,7 @@
 {
   "name": "deviseauth",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "subl": "^1.0.3"
+  }
 }
