@@ -1,7 +1,7 @@
 # Change these
 server '128.199.237.27', roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'abhianair@bitbucket.org:abhianair/deviseauth.git'
+set :repo_url,        'https://github.com/abhianair/deviseauth.git'
 set :application,     'deviseauth'
 set :user,            'rails'
 set :puma_threads,    [4, 16]
